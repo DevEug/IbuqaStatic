@@ -13,7 +13,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -25,7 +25,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -37,7 +37,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -49,7 +49,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -61,7 +61,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -73,7 +73,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 
@@ -86,7 +86,7 @@ function initToasts() {
       titleColor: "#fff",
       messageColor: "#fff",
       iconColor: "#fff",
-      backgroundColor: "#8c8cf9",
+      backgroundColor: "#7da733",
     });
   });
 

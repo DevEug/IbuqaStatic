@@ -18,7 +18,7 @@ Theme Colors
 
 var themes = {
   core: {
-    primary: "#8c8cf9",
+    primary: "#7da733",
     secondary: "#7F00FF",
     accent: "#ad5cff",
   },
@@ -54,12 +54,12 @@ var themes = {
   },
   yellow: {
     primary: "#f5c62c",
-    secondary: "#8c8cf9",
+    secondary: "#7da733",
     accent: "#fe8c00",
   },
   orange: {
     primary: "#f83600",
-    secondary: "#8c8cf9",
+    secondary: "#7da733",
     accent: "#fe8c00",
   },
   red: {
