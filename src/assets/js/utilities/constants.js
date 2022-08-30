@@ -48,7 +48,7 @@ var themes = {
     accent: "#0062dd",
   },
   night: {
-    primary: "#4A00E0",
+    primary: "#7da733",
     secondary: "#23a6d5",
     accent: "#8E2DE2",
   },

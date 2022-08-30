@@ -3,202 +3,60 @@ layout: landing
 
 ---
 
-<!--Nav-->
-<body style="color:white;">
-<nav class="navbar navbar-landing is-transparent nav-dark is-fixed-top is-faded">
-    <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <img class="light-logo switcher-logo-square" src="assets/img/ibuqaimages/logo2.png" width="150" height="150" alt="">
-                <img class="dark-logo switcher-logo-square is-hidden" src="assets/img/ibuqaimages/logo2.png" width="150" height="28" alt="">
-            </a>
-
-            <!-- Sidebar Trigger -->
-            <a id="navigation-trigger" class="navbar-item hamburger-btn" href="javascript:void(0);">
-                <span class="menu-toggle">
-                    <span class="icon-box-toggle">
-                        <span class="rotate">
-                            <i class="icon-line-top"></i>
-                            <i class="icon-line-center"></i>
-                            <i class="icon-line-bottom"></i>
-                        </span>
-                    </span>
-                </span>
-            </a>
+<!-- Hero and nav -->
+<div
+  class="hero is-relative is-theme-primary has-waves-bottom"
+  data-page-theme="night"
   
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div> 
-
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a href="#main-features" class="navbar-item has-hover scroll-link">
-                    Products
-                </a>
-
-               
-                 <a href="#pricing" class="navbar-item has-hover scroll-link">
-                    Pricing
-                </a>
-                <a href="#pricing" class="navbar-item has-hover scroll-link">
-                    Blog
-                </a>
-                <a href="#pricing" class="navbar-item has-hover scroll-link">
-                    Contact Us
-                </a>
-            </div>
-
-            <div class="navbar-end has-hover">
-                <a class="navbar-item has-border-right">
-                    Login
-                </a>
-                <div class="separator"></div>
-                <div class="navbar-item">
-                    <a href="#" class="button button-signup is-rounded is-bold  primary-btn" style="background-color:#015162;border-color:#015162;">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<!--Hero-->
-<div class="hero product-hero is-app-grey blob-hero">
-  <!--Morphing Blobs-->
-  {{> morphing-blob-group}}
+>
+  {{> navbar-fade-kit1}}
 
   <!-- Hero image -->
-  <div id="main-hero" class="hero-body">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered mt-60">
-        <div class="column is-5 signup-column has-text-left">
-          <h1 class="title main-title text-bold is-2">
-           Everything your business needs all in one place 
-          </h1>
-          <h2 class="subtitle is-5 no-margin-bottom body-color">
+  <div id="main-hero" class="hero-body" 
+  >
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-5 is-header-caption">
+          <h1 class="title main-title"> Everything your business needs all in one place.</h1>
+          <h2 class="subtitle is-5 light-text">
             Focus on your business as we take care of the hard and boring part of your business
           </h2>
-          <br />
-          <br/>
-          <div class="column is-7 is-offset-1">
-            <!--Form-->
-            <div class="contact-form is-bigger">
-              <form>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Business Name</label>
-                </div>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Name</label>
-                </div>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Email</label>
-                </div>
-                <div class="control-material is-primary">
-                  <textarea rows="3"></textarea>
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Phone</label>
-                </div>
-                <div class="button-wrap">
-                  <div
-                    class="
-                      button button-cta
-                      primary-btn
-                      btn-align
-                      no-lh
-                      raised
-                      is-fullwidth
-                    "
-                    style="background-color:#015162;border-color:#015162;"
-                  >
-                    Join Us
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <!-- Signup form -->
-          <!-- <div class="signup-block is-rounded">
-            <form>
-              <div class="control">
-                <input
-                  type="email"
-                  class="input"
-                  placeholder="Your email address"
-                />
-                <button
-                  type="submit"
-                  class="button btn-align primary-btn raised" style="background-color:#015162;border-color:#015162;">
-                
-                  Sign up
-                </button>
-              </div>
-            </form>
-          </div> -->
-          <!-- <div class="contact-form is-bigger">
-            <form>
-              <div class="control-material is-primary">
-                <input class="material-input" type="text" required />
-                <span class="material-highlight"></span>
-                <span class="bar"></span>
-                <label>Business Name</label>
-              </div>
-              <div class="control-material is-primary">
-                <input class="material-input" type="text" required />
-                <span class="material-highlight"></span>
-                <span class="bar"></span>
-                <label>Name</label>
-              </div>
-              <div class="control-material is-primary">
-                <input class="material-input" type="text" required />
-                <span class="material-highlight"></span>
-                <span class="bar"></span>
-                <label>Email</label>
-              </div>
-              <div class="control-material is-primary">
-                <textarea rows="3"></textarea>
-                <span class="material-highlight"></span>
-                <span class="bar"></span>
-                <label>Phone</label>
-              </div>
-              <div class="button-wrap">
-                <div
-                  class="
-                    button button-cta
-                    primary-btn
-                    btn-align
-                    no-lh
-                    raised
-                    is-fullwidth
-                  "
-                  style="background-color:#015162;border-color:#015162;"
-                >
-                  Join Us
-                </div>
-              </div>
-            </form>
-          </div> -->
-          
+          <p class="buttons" >
+            <a
+              href="#features"
+              class="
+                button button-cta
+                btn-align btn-outlined
+                is-bold
+                light-btn
+                rounded
+                z-index-2
+              " style="background-color:#015162;border-color:#015162;"
+            >
+              Get Started
+            </a>
+            <a
+              href="#"
+              class="
+                button button-cta
+                btn-align btn-outlined
+                is-bold
+                light-btn
+                rounded
+                z-index-4
+              "
+            >
+              Contact Sales
+            </a>
+          </p>
         </div>
-        <div class="column is-3 is-offset-1">
-          <!-- Hero mockup -->
-          <figure class="image">
+        <div class="column is-8 is-offset-1">
+          <figure class="image is-3by2 hero-figure is-pushed">
+            <!--img class="has-light-shadow" src="assets/img/graphics/apps/app-2-core.png"
+                            data-base-url="assets/img/graphics/apps/app-2" data-extension=".png" alt=""-->
             <img
-              class="dotted-app animated preFadeInUp fadeInUp"
-            alt=""
-              data-base-url="assets/img/graphics/apps/app-1"
-              data-extension=".jpg"
+              class="has-light-shadow"
+              src="assets/img/ibuqaimages/OrderTracking.svg"
               alt=""
             />
           </figure>
@@ -206,389 +64,1398 @@ layout: landing
       </div>
     </div>
   </div>
- 
-  <div class="section is-medium is-relative section-feature-grey">
-    <div class="container has-text-centered">
-      <div class="columns is-vcentered">
-        <div class="column is-6 is-offset-3 has-text-centered">
-          <div class="section-title-wrapper">
-            <h6 class="top-subtitle">That's not all</h6>
-            <h2 class="title dark-text text-bold main-title is-2">
-           What we Do 
-            </h2>
+</div>
+<div class="section is-medium">
+  <div class="container">
+    <!--Title-->
+    <div class="section-title has-text-centered pt-40">
+      <h2 class="title is-3"> Testimonials</h2>
+      <h4 style="color:#015162;">What Our Clients Say</h4>
+    </div>
+
+    <!--Carousel-->
+    <div class="carousel-wrap">
+      <div class="testimonials-solo-carousel">
+        <!--Carousel item-->
+        <div class="testimonial-item">
+          <div class="left-side">
+            <div class="avatar-container">
+              <img
+                class="dots is-top"
+                src="assets/img/ibuqaimages/Mutinda.webp"
+                alt=""
+              />
+              <img
+                class="avatar"
+                src="assets/img/ibuqaimages/markmumo."
+                alt=""
+                data-demo-src="assets/img/ibuqaimages/Mutinda.webp"
+              />
+              <img
+                class="dots is-bottom"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+            </div>
+            <div class="avatar-info">
+              <h3>Robert Klemens</h3>
+              <p>HR Manager</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <img
+              class="company-logo"
+              src="assets/img/logos/custom/infinite.svg"
+              alt=""
+            />
+            <div class="testimonial-content">
+              <p class="text-content">
+                "ibuQa drivers are pleasant and always at the other end of the phone when I need to speak to them or arrange anything whatever time of the day."
+              </p>
+              <a class="learn-more" href="#">
+                <span>Learn More</span>
+                <i class="sl sl-icon-arrow-right-circle"></i>
+              </a>
+              <div class="metrics">
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="90,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Sales</span>
+                    <span>Increased by 90%</span>
+                  </div>
+                </div>
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="60,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Conversions</span>
+                    <span>Increased by 60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Carousel item-->
+        <div class="testimonial-item">
+          <div class="left-side">
+            <div class="avatar-container">
+              <img
+                class="dots is-top"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+              <img
+                class="avatar"
+                src="https://via.placeholder.com/250x250"
+                alt=""
+                data-demo-src=""
+              />
+              <img
+                class="dots is-bottom"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+            </div>
+            <div class="avatar-info">
+              <h3>Hank Breueur</h3>
+              <p>HR Manager</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <img
+              class="company-logo"
+              src="assets/img/logos/custom/covenant.svg"
+              alt=""
+            />
+            <div class="testimonial-content">
+              <p class="text-content">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Invidiosum nomen est, infame, suspectum. Utilitatis causa
+                amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges:
+                constructio interrete. Aliter homines, aliter philosophos loqui
+                putas oportere?"
+              </p>
+              <a class="learn-more" href="#">
+                <span>Learn More</span>
+                <i class="sl sl-icon-arrow-right-circle"></i>
+              </a>
+              <div class="metrics">
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="90,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Sales</span>
+                    <span>Increased by 90%</span>
+                  </div>
+                </div>
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="60,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Conversions</span>
+                    <span>Increased by 60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Carousel item-->
+        <div class="testimonial-item">
+          <div class="left-side">
+            <div class="avatar-container">
+              <img
+                class="dots is-top"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+              <img
+                class="avatar"
+                src="https://via.placeholder.com/250x250"
+                alt=""
+                data-demo-src="assets/img/ibuqaimages/markmumo.jpg"
+              />
+              <img
+                class="dots is-bottom"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+            </div>
+            <div class="avatar-info">
+              <h3>Yuko Kurosaki</h3>
+              <p>HR Manager</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <img
+              class="company-logo"
+              src="assets/img/logos/custom/grubspot.svg"
+              alt=""
+            />
+            <div class="testimonial-content">
+              <p class="text-content">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Invidiosum nomen est, infame, suspectum. Utilitatis causa
+                amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges:
+                constructio interrete. Aliter homines, aliter philosophos loqui
+                putas oportere?"
+              </p>
+              <a class="learn-more" href="#">
+                <span>Learn More</span>
+                <i class="sl sl-icon-arrow-right-circle"></i>
+              </a>
+              <div class="metrics">
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="90,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Sales</span>
+                    <span>Increased by 90%</span>
+                  </div>
+                </div>
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="60,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Conversions</span>
+                    <span>Increased by 60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Carousel item-->
+        <div class="testimonial-item">
+          <div class="left-side">
+            <div class="avatar-container">
+              <img
+                class="dots is-top"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+              <img
+                class="avatar"
+                src="https://via.placeholder.com/250x250"
+                alt=""
+                data-demo-src="assets/img/demo/photos/4.jpg"
+              />
+              <img
+                class="dots is-bottom"
+                src="assets/img/graphics/legacy/dots.svg"
+                alt=""
+              />
+            </div>
+            <div class="avatar-info">
+              <h3>John Drazic</h3>
+              <p>HR Director</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <img
+              class="company-logo"
+              src="assets/img/logos/custom/phasekit.svg"
+              alt=""
+            />
+            <div class="testimonial-content">
+              <p class="text-content">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Invidiosum nomen est, infame, suspectum. Utilitatis causa
+                amicitia est quaesita. Non laboro, inquit, de nomine. Duo Reges:
+                constructio interrete. Aliter homines, aliter philosophos loqui
+                putas oportere?"
+              </p>
+              <a class="learn-more" href="#">
+                <span>Learn More</span>
+                <i class="sl sl-icon-arrow-right-circle"></i>
+              </a>
+              <div class="metrics">
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="90,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Sales</span>
+                    <span>Increased by 90%</span>
+                  </div>
+                </div>
+                <div class="metric">
+                  <svg
+                    class="circle-chart"
+                    viewbox="0 0 33.83098862 33.83098862"
+                    width="50"
+                    height="33"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      class="circle-chart__background"
+                      stroke="#efefef"
+                      stroke-width="2"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#7da733"
+                      stroke-width="2"
+                      stroke-dasharray="60,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <circle
+                      class="circle-chart__circle"
+                      stroke="#cfcfff"
+                      stroke-width="2"
+                      stroke-dasharray="30,100"
+                      stroke-linecap="round"
+                      fill="none"
+                      cx="16.91549431"
+                      cy="16.91549431"
+                      r="15.91549431"
+                    />
+                    <g class="circle-chart__info"></g>
+                  </svg>
+                  <div class="meta">
+                    <span>More Conversions</span>
+                    <span>Increased by 60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="columns is-vcentered">
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Speach-Bubble2 is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Logistics</h5>
-              We provide reliable, trustworthy, friendly and presentable drivers and riders. ​  ​
-              
-              We understand that your customers need to be handled with consideration.
-            </div>
-          </div>
-        </div>
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Microphone-4 is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Storefronts</h5>
-              Most online commerce in Kenya is conducted over the phone and social media. We provide tools to unify these “storefronts” and connect them with logistics, fulfillment and payments.​To learn more about our omni-cannel commerce CRM, click here. 
-            </div>
-          </div>
-        </div>
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Mail is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Fulfillment </h5>
-              We can collect, store, dispatch, restock and consolidate deliveries for you so that you can focus on selling and delighting customers.​
+      <!--Carousel footer-->
+     
+    </div>
 
-              ​
-              
-              Our fulfillment center is secure and insured.​
+    <!--Client Logos Section-->
+    <!-- <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="grid-clients flex-mobile three-grid pt-20 pb-60">
+          <div class="columns is-vcentered">
+            <div class="column is-hidden-mobile"></div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/phasekit.svg"
+                  alt=""
+              /></a>
             </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/proactive.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/grubspot.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+          </div>
+          <div class="columns is-vcentered is-separator">
+            <div class="column is-hidden-mobile"></div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/tribe.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/kromo.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/covenant.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+          </div>
+          <div class="columns is-vcentered is-separator">
+            <div class="column is-hidden-mobile"></div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/bitbreaker.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/transfuseio.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column">
+              <a
+                ><img
+                  class="client"
+                  src="assets/img/logos/custom/livetalk.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
           </div>
         </div>
-        
       </div>
-      <div class="columns is-vcentered">
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Speach-Bubble2 is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Back-Office Integrations</h5>
-              Running operations for a business that does deliveries is tough. We can help your staff work efficiently by enabling custom processes and integrating the tools you already use.​  
-            </div>
-          </div>
-        </div>
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Microphone-4 is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Customer Experience</h5>
-              We agree, customer experience is crucial. But it can be complicated and expensive to set up. Our ibuQa commerce can consolidate all your channels into one place.​
+    </div> -->
+  </div>
+</div>
+<!-- Feature Matrix -->
 
-              ​
-              
-              You can also talk to us about training for your staff and contact centre.​
+<div class="content-wrapper has-margin-bottom">
+  <div class="columns is-vcentered form-wrapper">
+    <div class="column is-5 is-offset-1">
+      <!--Form-->
+      <div class="contact-form is-bigger">
+        <form>
+          <div class="control-material is-primary">
+            <input class="material-input" type="text" required />
+            <span class="material-highlight"></span>
+            <span class="bar"></span>
+            <label>Business Name</label>
+          </div>
+          <div class="control-material is-primary">
+            <input class="material-input" type="text" required />
+            <span class="material-highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+          </div>
+          <div class="control-material is-primary">
+            <input class="material-input" type="text" required />
+            <span class="material-highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+          </div>
+          <div class="control-material is-primary">
+            <textarea rows="3"></textarea>
+            <span class="material-highlight"></span>
+            <span class="bar"></span>
+            <label>Phone</label>
+          </div>
+          <div class="button-wrap">
+            <div
+              class="
+                button button-cta
+                primary-btn
+                btn-align
+                no-lh
+                raised
+                is-fullwidth
+              "
+              style="background-color:#015162;border-color:#015162;"
+            >
+              Join Us
             </div>
           </div>
-        </div>
-        <div class="column is-4">
-          <!-- Side icon box -->
-          <div class="content content-flex">
-            <div class="dark-text">
-              <i class="im im-icon-Mail is-size-2 color-primary"></i>
-            </div>
-            <div class="dark-text has-text-left ml-30">
-              <h5 class="text-bold">Payments</h5>
-              Together with our banking partners, we help you automate and track collection and issuance of payments as well as reconciliation.​
-For cash on delivery sales, you can rely on our trustworthy staff who are also highly vetted and covered by insurance.​
-            </div>
+        </form>
+      </div>
+    </div>
+      <div class="column is-5is-offset-1">
+    
+        <div class="extra-word">
+          <div class="avatar-wrap">
+            <img
+              src="https://via.placeholder.com/250x250"
+              data-demo-src="assets/img/ibuqaimages/markmumo.jpg"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <p>
+              <i class="fa fa-quote-left"></i>ibuQa drivers are pleasant and always at the other end of the phone when I need to speak to them or arrange anything whatever time of the day.<i
+                class="fa fa-quote-right"
+              ></i>
+            </p>
+            <span>Mark Mumo </span>
+            <span>Card Services Manager, Savannah Informatics​</span>
           </div>
         </div>
-       
-
-  
-      <!-- <p class="pt-40 pb-40">
-        <a
-          href="#product"
-          class="button button-cta btn-align raised rounded primary-btn"
+      </div>
+    </div>
+   
+    </div>
+<!-- Feature -->
+<div class="section section-feature-grey">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
+      <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
+        <div class="icon-subtitle"><i class="im im-icon-Calendar-4"></i></div>
+        <div class="title quick-feature is-handwritten text-bold">
+          <h2>Logistics</h2>
+          <div class="bg-number">2</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >We provide reliable, trustworthy,
+          friendly and presentable drivers and
+          riders..</span
         >
-          Learn more
-        </a>
-      </p> -->
+      </div>
+
+      <div class="column is-6 has-text-centered">
+        <img
+          class="featured-svg"
+          src="assets/img/graphics/widgets/mini-widget-1-core.png"
+          data-base-url="assets/img/graphics/widgets/mini-widget-1"
+          data-extension=".png"
+          alt=""
+        />
+      </div>
+
+      <div class="column is-4 is-offset-1 is-hidden-mobile">
+        <div class="icon-subtitle"><i class="im im-icon-Calendar-4"></i></div>
+        <div class="title quick-feature is-handwritten text-bold">
+          <h2>Logistics</h2>
+          <div class="bg-number">2</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+          inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis
+          ut. Vis in probo decore labitur.</span
+        >
+      </div>
     </div>
   </div>
-  <!-- Clients -->
-  <!-- <div class="hero-foot">
-    <div class="container">
-      <div class="tabs partner-tabs is-centered">
-        <ul>
-          <li>
-            <a
-              ><img
-                class="partner-logo"
-                src="assets/img/logos/custom/covenant.svg"
-                alt=""
-            /></a>
-          </li>
-          <li>
-            <a
-              ><img
-                class="partner-logo"
-                src="assets/img/logos/custom//infinite.svg"
-                alt=""
-            /></a>
-          </li>
-          <li>
-            <a
-              ><img
-                class="partner-logo"
-                src="assets/img/logos/custom/phasekit.svg"
-                alt=""
-            /></a>
-          </li>
-          <li>
-            <a
-              ><img
-                class="partner-logo"
-                src="assets/img/logos/custom/grubspot.svg"
-                alt=""
-            /></a>
-          </li>
-          <li>
-            <a
-              ><img
-                class="partner-logo"
-                src="assets/img/logos/custom/gutwork.svg"
-                alt=""
-            /></a>
-          </li>
-        </ul>
+</div>
+
+<!-- Feature -->
+<div class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-4 is-offset-1">
+        <div class="icon-subtitle">
+          <i class="im im-icon-Upload-toCloud"></i>
+        </div>Logistics
+        <div class="title quick-feature is-handwritten text-bold">
+          <h2></h2>
+          <div class="bg-number">3</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >We provide reliable, trustworthy,
+          friendly and presentable drivers and
+          riders.</span
+        >
+      </div>
+
+      <div class="column is-6 is-offset-1 has-text-centered">
+        <img
+          class="featured-svg"
+          src="assets/img/graphics/widgets/mini-widget-2-core.png"
+          data-base-url="assets/img/graphics/widgets/mini-widget-2"
+          data-extension=".png"
+          alt=""
+        />
       </div>
     </div>
-  </div> -->
+  </div>
 </div>
-<!-- <div id="main-features" class="section is-medium">
+
+<!-- Feature -->
+<div class="section section-feature-grey">
   <div class="container">
+    <div class="columns is-vcentered">
+      <!-- With the help of responsive modifiers, the text column is duplicated to ensure better readability both on desktop and mobile viewports -->
+      <div class="column is-4 is-offset-1 is-hidden-desktop is-hidden-tablet">
+        <div class="icon-subtitle">
+          <i class="im im-icon-Security-Check"></i>
+        </div>
+        <div class="title quick-feature is-handwritten text-bold">
+          <h2>Secure content</h2>
+          <div class="bg-number">4</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+          inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis
+          ut. Vis in probo decore labitur.</span
+        >
+      </div>
+
+      <div class="column is-6 has-text-centered">
+        <img
+          class="featured-svg"
+          src="assets/img/graphics/widgets/mini-widget-3-core.png"
+          data-base-url="assets/img/graphics/widgets/mini-widget-3"
+          data-extension=".png"
+          alt=""
+        />
+      </div>
+
+      <div class="column is-4 is-offset-1 is-hidden-mobile">
+        <div class="icon-subtitle">
+          <i class="im im-icon-Security-Check"></i>
+        </div>
+        <div class="title quick-feature is-handwritten text-bold">
+          <div>Secure content</div>
+          <div class="bg-number">4</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+          inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis
+          ut. Vis in probo decore labitur.</span
+        >
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Feature -->
+<div class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-4 is-offset-1">
+        <div class="icon-subtitle">
+          <i class="im im-icon-Arrow-Refresh"></i>
+        </div>
+        <div class="title quick-feature is-handwritten text-bold">
+          <h2>Collaborate</h2>
+          <div class="bg-number">5</div>
+        </div>
+        <div class="title-divider is-small"></div>
+        <span class="body-text"
+          >Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+          inermis iudicabit. Ex vidit fierent hendrerit eum, sed stet periculis
+          ut. Vis in probo decore labitur.</span
+        >
+      </div>
+
+      <div class="column is-6 is-offset-1 has-text-centered">
+        <img
+          class="featured-svg-lg"
+          src="assets/img/graphics/widgets/mini-widget-4-core.png"
+          data-base-url="assets/img/graphics/widgets/mini-widget-4"
+          data-extension=".png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="has-text-centered is-title-reveal pt-20 pb-20">
+      <a href="#" class="button button-cta primary-btn rounded raised"
+        >Start your Free trial</a
+      >
+    </div>
+  </div>
+</div>
+
+<!-- More features -->
+<div class="section is-medium is-relative section-feature-grey">
+  <div class="container">
+    <!-- Title -->
+    <div class="section-title-wrapper has-text-centered">
+      <div class="bg-number">6</div>
+      <h2 class="section-title-landing">Wait, there's more</h2>
+      <h4>There are plenty of additionnal features to discover</h4>
+    </div>
 
     <div class="content-wrapper">
       <div class="columns is-vcentered">
-        <div class="column is-7 is-offset-1">
-          
-          <img
-           
-            src="assets/img/ibuqaimages/ibuQaCompanyProfile2.svg"
-            data-base-url="assets/img/graphics/apps/app-2"
-            data-extension=".png"
-            alt=""
-          />
-     
+        <div class="column is-4 has-text-centered">
+          <h3 class="is-3 small-feature">Live search</h3>
+          <p class="mb-20 is-tablet-padded body-color">
+            Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+            inermis iudicabit.
+          </p>
+          <div class="feature-sm">
+            <img
+              class="is-card-reveal"
+              src="assets/img/graphics/widgets/mini-widget-6-core.png"
+              data-base-url="assets/img/graphics/widgets/mini-widget-6"
+              data-extension=".png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="column is-4 has-text-centered">
+          <h3 class="is-3 small-feature">Activity reports</h3>
+          <p class="mb-20 is-tablet-padded body-color">
+            Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+            inermis iudicabit.
+          </p>
+          <div class="feature-sm">
+            <img
+              class="is-card-reveal"
+              src="assets/img/graphics/widgets/mini-widget-5-core.png"
+              data-base-url="assets/img/graphics/widgets/mini-widget-5"
+              data-extension=".png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="column is-4 has-text-centered">
+          <h3 class="is-3 small-feature">Statistic Dashboard</h3>
+          <p class="mb-20 is-tablet-padded body-color">
+            Lorem ipsum dolor sit amet, clita laoreet ne cum. His cu harum
+            inermis iudicabit.
+          </p>
+          <div class="feature-sm">
+            <img
+              class="is-card-reveal"
+              src="assets/img/graphics/widgets/mini-widget-7.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
-        <!-- Content -->
-       
-        
-        <!-- Icons -->
-       
+      <div class="has-text-centered pt-20 pb-20">
+        <a
+          href="kit1-signup.html"
+          class="button button-cta btn-align primary-btn rounded raised"
+          >Start a Free Trial</a
+        >
       </div>
     </div>
   </div>
-</div> -->
-
-  <!--Colored circles-->
-  <!-- <div class="primary-circle"></div>
-  <div class="primary-bold-circle"></div>
-  <div class="accent-circle"></div> -->
 </div>
 
-
-
-<!--Illustration Section-->
-
-
-  
-<!-- Learn more on features -->
-
-
-<!--Pricing Section-->
-<!-- <div class="section is-pricing is-medium">
+<!--Video-->
+<div class="section is-app-grey">
   <div class="container">
-    <!--Title-->
-    <!-- <div id="pricing" class="section-title has-text-centered">
-      <img
-        src="assets/img/graphics/icons/robot-heading-core.svg"
-        data-base-url="assets/img/graphics/icons/robot-heading"
-        data-extension=".svg"
-        alt=""
-      />
-      <h2 class="title is-spaced">Straightforward Plans</h2>
-      <h3 class="subtitle-alt">With tons of available features.</h3>
-    </div> -->
+    <!-- Title -->
+    <div class="section-title-wrapper has-text-centered pt-40 pb-40">
+      <h2 class="section-title-landing">Download the App</h2>
+      <h4>And try an amazing set of renewed features</h4>
+    </div>
 
-    <!--Wrapper-->
-    <!-- <div class="pricing-wrap">
-      <div class="columns">
-        <!--Pricing card-->
-        <!-- <div class="column is-4">
-          <div class="pricing-card">
-            <div class="pricing-overlay is-accent"></div>
-            <a class="button pricing-button cta-button is-rounded"
-              >Get Started</a
-            >
-            <div class="pricing-head">
-              <div class="price">0</div>
-              <div class="meta">
-                <span>Discovery</span>
-                <span>Free</span>
+    <div class="columns is-vcentered is-multiline pb-60">
+      <div class="column is-8 is-offset-2 is-relative is-centered-portrait">
+        <!-- 16by9 video -->
+        <div class="bulkit-player-container is-16by9 reversed-play">
+          <video
+            id="hero-player"
+            class="bulkit-player"
+            playsinline
+            controls
+            data-poster="https://via.placeholder.com/440x440"
+            data-demo-poster="assets/img/demo/video/poster-2f.jpg"
+          >
+            <source src="assets/img/video/hands.mp4" type="video/mp4" />
+            <source src="assets/img/video/hands.webm" type="video/webm" />
+          </video>
+        </div>
+      </div>
+
+      <div class="column is-4 is-offset-2">
+        <div class="side-title mb-10">
+          <h3 class="title is-5">Fast transactions</h3>
+        </div>
+        <p class="side-paragraph is-size-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eodem modo is
+          enim tibi nemo dabit, quod, expetendum sit, id esse laudabile.
+        </p>
+      </div>
+
+      <div class="column is-4">
+        <div class="side-title mb-10">
+          <h3 class="title is-5">Live compensation</h3>
+        </div>
+        <p class="side-paragraph is-size-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eodem modo is
+          enim tibi nemo dabit, quod, expetendum sit, id esse laudabile.
+        </p>
+      </div>
+
+      <div class="column is-4 is-offset-2">
+        <div class="side-title mb-10">
+          <h3 class="title is-5">Advanced Cryptography</h3>
+        </div>
+        <p class="side-paragraph is-size-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eodem modo is
+          enim tibi nemo dabit, quod, expetendum sit, id esse laudabile.
+        </p>
+      </div>
+
+      <div class="column is-4">
+        <div class="side-title mb-10">
+          <h3 class="title is-5">Daily Bonuses</h3>
+        </div>
+        <p class="side-paragraph is-size-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eodem modo is
+          enim tibi nemo dabit, quod, expetendum sit, id esse laudabile.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Learning -->
+<div id="learning" class="section is-medium">
+  <div class="container">
+    <!-- Title -->
+    <div class="section-title-wrapper has-text-centered">
+      <div class="bg-number">8</div>
+      <h2 class="section-title-landing">Want to learn more ?</h2>
+      <h4>Read more in our Learning Center</h4>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns is-vcentered">
+        <!-- Card -->
+        <div class="column is-4">
+          <div class="card ressource-card">
+            <div class="card-image">
+              <div class="card-image-overlay primary"></div>
+              <figure class="image is-4by3 zoomOut">
+                <img
+                  src="https://via.placeholder.com/1280x960"
+                  alt=""
+                  data-demo-src="assets/img/demo/kit/posts/data-insight.jpeg"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="#">Work with less inbound emails</a>
+                  <p class="subtitle is-6"><b>Learning Center</b></p>
+                </div>
               </div>
             </div>
-            <div class="pricing-desc">
-              <p>
-                Lorem ipsum sit dolor amet is a dummy text used by the
-                typographers and the web industry.
-              </p>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="column is-4">
+          <div class="card ressource-card">
+            <div class="card-image">
+              <div class="card-image-overlay"></div>
+              <figure class="image is-4by3 zoomOut">
+                <img
+                  src="https://via.placeholder.com/1280x960"
+                  alt=""
+                  data-demo-src="assets/img/demo/kit/posts/blog.jpeg"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="#">Tight collaboration equals success</a>
+                  <p class="subtitle is-6"><b>Learning Center</b></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div> -->
-       
-       
+        </div>
 
-
-
-      <!--Form subsection-->
-      <div class="content-wrapper has-margin-bottom">
-        <div class="columns is-vcentered form-wrapper">
-          <div class="column is-5 is-offset-1">
-            <!--Form-->
-            <div class="contact-form is-bigger">
-              <form>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Business Name</label>
+        <!-- Card -->
+        <div class="column is-4">
+          <div class="card ressource-card">
+            <div class="card-image">
+              <div class="card-image-overlay"></div>
+              <figure class="image is-4by3 zoomOut">
+                <img
+                  src="https://via.placeholder.com/1280x960"
+                  alt=""
+                  data-demo-src="assets/img/demo/kit/posts/laptop-living.jpeg"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <a href="#">How data insight helps business</a>
+                  <p class="subtitle is-6"><b>Blog</b></p>
                 </div>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Name</label>
-                </div>
-                <div class="control-material is-primary">
-                  <input class="material-input" type="text" required />
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Email</label>
-                </div>
-                <div class="control-material is-primary">
-                  <textarea rows="3"></textarea>
-                  <span class="material-highlight"></span>
-                  <span class="bar"></span>
-                  <label>Phone</label>
-                </div>
-                <div class="button-wrap">
-                  <div
-                    class="
-                      button button-cta
-                      primary-btn
-                      btn-align
-                      no-lh
-                      raised
-                      is-fullwidth
-                    "
-                    style="background-color:#015162;border-color:#015162;"
-                  >
-                    Join Us
-                  </div>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
-            <div class="column is-5is-offset-1">
-          
-              <img
-               
-                src="assets/img/ibuqaimages/ibuQaCompanyProfile2.svg"
-                data-base-url="assets/img/graphics/apps/app-2"
-                data-extension=".png"
-                alt=""
-              />
-         
-          </div>
-            <!--Title-->
-            <!-- <div class="side-title">
-              <h3 class="title is-3 is-spaced is-portrait-padded">
-                Reach out our Support for any question.
-              </h3>
-            </div>
-            <p class="side-paragraph is-small has-margin">
-              Lorem ipsum is a wonderful demo text used by typographers and the
-              web industry. It's very likely that you've already seen it.
-            </p>
-          </div> -->
-          
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!--Footer-->
-<footer class="footer landing-dark-footer">
+<!-- Clients grid -->
+<div id="trust" class="section section-feature-grey is-medium">
   <div class="container">
-    <div class="columns">
-      <div class="column is-4">
-        <img
-          class="footer-logo square-logo switcher-logo"
-          src="assets/img/ibuqaimages/ibuqa_transaparent.png"
-          alt=""
-        />
-        <p class="footer-logo-text is-portrait-padded">
-          Lorem ipsum sit dolor amet is a dummy text used by typographers and
-          the web industry. It’s highly likely that you’ve already seen it.
-        </p>
-      </div>
-      <div class="column">
-        <h4 class="title is-light is-5">Get Started</h4>
-        <ul class="footer-menu">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </div>
-      <div class="column">
-        <h4 class="title is-light is-5">Support</h4>
-        <ul class="footer-menu">
-          <li><a href="#">Help</a></li>
-          <li><a href="#">User Guides</a></li>
-          <li><a href="#">Assistance</a></li>
-          <li><a href="#">Terms of Service</a></li>
-        </ul>
-      </div>
-      <div class="column">
-        <h4 class="title is-light is-5">Contact</h4>
-        <ul class="footer-menu">
-          <li>5th Floor, One Padmore Place, off George Padmore Road, Nairobi, Kenya.</li>
-          <li>courier@ibuqacapital.com</li>
-          <li>+254 743 750 00</li>
-        </ul>
-      </div>
+    <!-- Title -->
+    <div class="section-title-wrapper">
+      <div class="bg-number"><i class="material-icons">domain</i></div>
+      <h2 class="section-title-landing has-text-centered dark-text">
+        We build Trust.
+      </h2>
+      <h4 class="has-text-centered">
+        More than <b>900 Teams</b> use our product.
+      </h4>
     </div>
-    <div class="copyright">
-      <img
-        class="copyright-logo"
-        src="assets/img/ibuqaimages/ibuqa_transaparent.png"
-        width="112"
-        height="28"
-        alt=""
-      />
-      <div class="copyright-text">
-        &copy;2021-2022,ibuQa , All Rights Reserved.
+
+    <div class="content-wrapper">
+      <!-- Grid -->
+      <div class="grid-clients five-grid">
+        <div class="columns is-vcentered">
+          <div class="column"></div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/gutwork.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/phasekit.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/grubspot.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/taskbot.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/systek.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="column"></div>
+        </div>
+        <div class="columns is-vcentered is-separator">
+          <div class="column"></div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/infinite.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/tribe.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/powerball.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/kromo.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/covenant.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="column"></div>
+        </div>
+        <div class="columns is-vcentered is-separator">
+          <div class="column"></div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/bitbreaker.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/evently.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/proactive.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/transfuseio.svg"
+                alt=""
+            /></a>
+          </div>
+          <!-- Client -->
+          <div class="column">
+            <a
+              ><img
+                class="client"
+                src="assets/img/logos/custom/livetalk.svg"
+                alt=""
+            /></a>
+          </div>
+          <div class="column"></div>
+        </div>
       </div>
+      <!-- CTA -->
+      <div class="has-text-centered pt-40 pb-40">
+        <a
+          href="kit1-pricing.html"
+          class="button button-cta btn-align primary-btn raised rounded"
+          >Get started Now</a
+        >
+      </div>
+      <!-- /CTA -->
     </div>
   </div>
-</footer>
+</div>
+<!-- Clients -->
 
-<!-- Back To Top Button -->
-<div id="backtotop"><a href="#"></a></div>
+<!-- Contact form -->
+<div
+  class="
+    section
+    is-medium is-relative
+    has-waves-bottom-dark
+    section-feature-grey
+  "
+>
+  <div class="container">
+    <!-- Title -->
+    <div class="section-title-wrapper has-text-centered">
+      <div class="bg-number">6</div>
+      <h2 class="section-title-landing">Start your Free trial</h2>
+      <h4>
+        Dont struggle anymore to manage tasks. Everything is easy to setup
+      </h4>
+    </div>
+
+    <div class="content-wrapper giant-pb">
+      <form>
+        <div class="columns">
+          <div class="column is-8 is-offset-2">
+            <div class="columns is-vcentered">
+              <div class="column is-3">
+                <!-- Form field -->
+                <div class="control-material is-primary">
+                  <input class="material-input" type="text" required />
+                  <span class="material-highlight"></span>
+                  <span class="bar"></span>
+                  <label>Name *</label>
+                </div>
+              </div>
+              <div class="column is-3">
+                <!-- Form field -->
+                <div class="control-material is-primary">
+                  <input class="material-input" type="text" required />
+                  <span class="material-highlight"></span>
+                  <span class="bar"></span>
+                  <label>Email *</label>
+                </div>
+              </div>
+              <div class="column is-3">
+                <!-- Form field -->
+                <div class="control-material is-primary">
+                  <input class="material-input" type="text" required />
+                  <span class="material-highlight"></span>
+                  <span class="bar"></span>
+                  <label>Company *</label>
+                </div>
+              </div>
+              <div class="column is-3">
+                <button
+                  type="submit"
+                  class="
+                    button button-cta
+                    btn-align
+                    primary-btn
+                    btn-outlined
+                    is-bold
+                    rounded
+                    raised
+                    no-lh
+                  "
+                >
+                  Sign me up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{> footer-dark}}
